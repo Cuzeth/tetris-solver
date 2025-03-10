@@ -17,8 +17,8 @@ fi
 source venv/bin/activate
 
 # Install dependencies
-pip install --upgrade pip
-pip install numpy
+pip3 install --upgrade pip
+pip3 install numpy
 
 # Run the Tetris Solver
 python3 tetris_solver.py
